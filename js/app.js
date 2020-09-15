@@ -41,9 +41,6 @@ var seattle = {
 
     },
 
-    
-    
-
     render: function () {
         var parent = document.getElementById('sales');
         var h2 = document.createElement('h2');

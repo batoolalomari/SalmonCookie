@@ -1,0 +1,73 @@
+body{
+    background-color: #EAE6DA;
+    
+}
+
+section{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2.3pc;
+    background-color:#e4c881;
+    color:#9B1B30;
+    padding: 2pc;
+    margin: 2pc;
+    padding-left: 2pc;
+    text-align: left;
+
+}
+
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 3.5pc;
+    background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d9/master/class-08/lab-b/assets/salmon.png);
+    align-items: center;
+    position: right ;
+    background-repeat: repeat-y;
+
+    position: left bottom;
+    background-repeat: repeat-y;
+     
+    background-color: #616247  ;
+    color:#EAE6DA;
+    padding: 4.2pc;
+    margin: 2pc;
+    padding-left: 55pc;
+    
+}
+
+.p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 3pc;
+    background-color:#D2C29D;
+    color:#9B1B30;
+    padding: 2pc;
+    margin: 2pc;
+    padding-left: 2pc;
+}
+
+.p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 3pc;
+    background-color:#B18F6A;
+    color:#77212E;
+    padding: 2pc;
+    margin: 2pc;
+    padding-left: 2pc;
+}
+
+.a{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 3pc;
+    background-color:#A9754F;
+    color:#77212E;
+    padding: 2pc;
+    margin: 2pc;
+    padding-left: 2pc;
+    
+}

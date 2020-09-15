@@ -1,7 +1,11 @@
 
+'strict use';
+
+
 var arr = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 var cookieStandLocation = [];
 var totalPerHour = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+
 var body = document.getElementById('sales');
 var table = document.createElement('table');
 body.appendChild(table);
@@ -73,7 +77,7 @@ SalmonCookie.prototype.cookiePurchasedPerHour = function () {
         cookie = Math.ceil(this.custmerRaandom[i] * this.avg);
         this.locationArr.push(cookie);
        // totalPerHour.push(cookie);
-        this.daily+= cookie;
+        this.daily=this.daily+ cookie;
        totalPerHour[i]+=cookie;
 
 

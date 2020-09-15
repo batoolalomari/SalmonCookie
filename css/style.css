@@ -3,6 +3,18 @@ body{
     
 }
 
+
+table{
+    
+    padding: 4.2pc;
+    margin: 2pc;
+}
+
+th,td{
+    border:1px salmon solid;
+    width: 10%;
+}
+
 section{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -12,11 +24,25 @@ section{
     padding: 2pc;
     margin: 2pc;
     padding-left: 2pc;
-    text-align: left;
+    text-align: left; 
 
 }
 
-
+.h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 3.5pc;
+    background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d9/master/class-08/lab-b/assets/salmon.png);
+    align-items: center;
+    position: right ;
+    background-repeat: repeat-y;
+    
+    background-color: #77212E  ;
+    color:#EAE6DA;
+    padding: 4.2pc;
+    margin: 2pc;
+    padding-left: 55pc;
+}
 
 h1{
     font-family: 'Times New Roman', Times, serif;

@@ -6,6 +6,7 @@ var arr = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3p
 var cookieStandLocation = [];
 var totalPerHour = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 
+
 var body = document.getElementById('sales');
 var table = document.createElement('table');
 body.appendChild(table);
@@ -45,13 +46,15 @@ function tablefooter() {
     
     }
 
+   
+
 }
 
 function SalmonCookie(minCost, maxCost, avg, name) {
     this.minCost = minCost;
     this.maxCost = maxCost;
     this.avg = avg;
-    this.daily = 0;
+    this.daily=0;
   
     this.custmerRaandom = [];
     this.locationArr=[];
@@ -77,12 +80,12 @@ SalmonCookie.prototype.cookiePurchasedPerHour = function () {
         cookie = Math.ceil(this.custmerRaandom[i] * this.avg);
         this.locationArr.push(cookie);
        // totalPerHour.push(cookie);
-        this.daily=this.daily+ cookie;
+        this.daily=this.daily+cookie;
        totalPerHour[i]+=cookie;
 
 
     }
-    totalPerHour[length-1]+=this.daily;
+    totalPerHour[totalPerHour.length-1]+=this.daily;
 };
 
 SalmonCookie.prototype.render = function () {

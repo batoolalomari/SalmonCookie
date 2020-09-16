@@ -28,6 +28,17 @@ section{
 
 }
 
+fieldset,button{
+    padding: 2pc;
+    margin: 2pc;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 1.5pc;
+    background-color: tan;
+   
+}
+
+
 .h1{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;

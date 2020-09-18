@@ -161,7 +161,7 @@ tablefooter();*/
       newLoc.render();
      // table.innerHTML.tablefooter='';
       tablefooter();
-      table.innerHTML.tablefooter='';
+      //table.innerHTML.tablefooter='';
     
  });
 

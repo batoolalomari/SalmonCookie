@@ -57,7 +57,7 @@ fieldset,button{
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    font-family: 'Pacifico', cursive;
     font-size: 3.5pc;
     background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d9/master/class-08/lab-b/assets/salmon.png);
     align-items: center;
@@ -76,7 +76,9 @@ h1{
 }
 
 .p{
-    font-family: 'Times New Roman', Times, serif;
+    
+font-family: 'Pacifico', cursive;
+
     font-style: italic;
     font-size: 3pc;
     background-color:#D2C29D;

@@ -158,9 +158,11 @@ tablefooter();*/
       var newLoc=new SalmonCookie(mi,ma,av,nam);
       newLoc.cusPerHour();
       newLoc.cookiePurchasedPerHour();
+      table.removeChild(table.lastChild);
       newLoc.render();
      // table.innerHTML.tablefooter='';
-      tablefooter();
+     
+     tablefooter();
       //table.innerHTML.tablefooter='';
     
  });
@@ -177,5 +179,5 @@ for (var i = 0; i < cookieStandLocation.length; i++) {
 
 }
 //
-table.innerHTML.tablefooter='';
+
 //table.deleteRow(totalPerHour);
